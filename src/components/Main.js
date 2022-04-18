@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import LogoComponent from '../subComponents/LogoComponent'
 import PowerButton from '../subComponents/PowerButton'
+import SocialMediaIcon from '../subComponents/SocialMediaIcon'
 
 const MainContainer = styled.div`
   background: ${props => props.theme.body};
@@ -28,7 +29,7 @@ function Main() {
       <Container>
         <PowerButton></PowerButton>
         <LogoComponent></LogoComponent>
-
+        <SocialMediaIcon/>
       </Container>
     </MainContainer>
   )
