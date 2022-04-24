@@ -9,7 +9,7 @@ import { keyframes } from 'styled-components'
 import { useState } from 'react'
 import Intro from './Intro'
 import { motion } from 'framer-motion'
-import Particles from 'react-tsparticles'
+import ParticleComponent from '../subComponents/ParticleComponent';
 
 
 
@@ -136,7 +136,7 @@ function Main() {
   return (
 
     <MainContainer>
-
+      <ParticleComponent theme='light' />
       <Container>
         <PowerButton></PowerButton>
         <LogoComponent theme={click ? 'dark' : 'light' }></LogoComponent>
