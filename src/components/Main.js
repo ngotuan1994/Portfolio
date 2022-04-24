@@ -9,6 +9,7 @@ import { keyframes } from 'styled-components'
 import { useState } from 'react'
 import Intro from './Intro'
 import { motion } from 'framer-motion'
+import Particles from 'react-tsparticles'
 
 
 
@@ -133,7 +134,9 @@ function Main() {
     setClick(!click)
   }
   return (
+
     <MainContainer>
+
       <Container>
         <PowerButton></PowerButton>
         <LogoComponent theme={click ? 'dark' : 'light' }></LogoComponent>
@@ -174,12 +177,16 @@ function Main() {
             <motion.h2
             whileHover={{ scale: 1.2 }}
             whileTap={{scale: 0.8}}
-          >Skills</motion.h2>
+            >Skills</motion.h2>
+
           </Skills>
         </BottomBar>
       </Container>
       {click ? <Intro click={click}></Intro> : null}
+
+
     </MainContainer>
+
   )
 }
 
