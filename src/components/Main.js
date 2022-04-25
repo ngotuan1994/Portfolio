@@ -10,7 +10,7 @@ import { useState } from 'react'
 import Intro from './Intro'
 import { motion } from 'framer-motion'
 import ParticleComponent from '../subComponents/ParticleComponent';
-import ResumeFile from "../assets/images/EricNgo-Resume.pdf"
+import ResumeFile from "../assets/images/EricNgo-Resume.pdf";
 
 
 
@@ -178,7 +178,8 @@ function Main() {
             whileTap={{scale: 0.8}}
           > Work</motion.h2>
         </Work>
-        <Resume click={click}  target="_blank" href={ResumeFile} rel="noreferrer" download="EricNgo-resume.pdf">
+
+        <Resume click={click}  target="_blank" href={ResumeFile} rel="noreferrer" download="EricNgo-Resume.pdf">
           <motion.h1
             whileHover={{ scale: 1.2 }}
             whileTap={{scale: 0.8}}
