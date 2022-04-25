@@ -1,8 +1,8 @@
 import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import { Github, YouTube,LinkedIn } from "../components/AllSvgs"
+import { Github, YouTube,LinkedIn, Resume } from "../components/AllSvgs"
 import styled from "styled-components"
-
+import ResumeFile from "../assets/images/EricNgo-Resume.pdf"
 import {DarkTheme} from '../components/Themes'
 const Icons = styled.div`
   display: flex;
@@ -36,6 +36,12 @@ function SocialMediaIcon(props) {
         <div>
           <a style={{color:'inherit'}} target="_blank" href= "https://linkedin.com/in/tuanngo1994" rel="noreferrer">
             <LinkedIn width={32} height={30} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}></LinkedIn>
+          </a>
+
+      </div>
+      <div>
+          <a style={{color:'inherit'}} target="_blank" href={ResumeFile} rel="noreferrer" download="EricNgo-resume.pdf">
+            <Resume width={32} height={30} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}></Resume>
           </a>
 
       </div>

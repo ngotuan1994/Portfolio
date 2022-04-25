@@ -42,19 +42,7 @@ const Main = styled.div`
 
 `
 
-const Title = styled.h2`
-  display: flex;
-  justify-content: center ;
-  align-items: center ;
-  font-size: calc(1em + 1vw);
 
-`
-
-const Description = styled.div`
-  color: ${props => props.theme.text};
-  font-size: calc(0.6em + 1vw);
-  padding: 0.5rem 0;
-`
 const rotate = keyframes`
 0%{
   transform: rotate(0);

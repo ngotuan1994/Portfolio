@@ -89,9 +89,16 @@ function SkillsPage(click) {
 
           </Title>
           <Description>
-I love to create design which speaks, Keep it clean, minimal and simple.
+            <strong>Languages</strong>
+            <p>C, C++, Java (Intermediate), Javascript. </p>
 
           </Description>
+          <Description>
+            <strong>Skills</strong>
+            <p>SQL, MongoDB, Linux,Batch Scripting, Deploy, REST API, DNS, Express, RDBMS, Auth0, JWT, and e.t.c.</p>
+
+          </Description>
+
         </Main>
 
       </Box>

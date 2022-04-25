@@ -4,12 +4,13 @@ import LogoComponent from '../subComponents/LogoComponent'
 import PowerButton from '../subComponents/PowerButton'
 import SocialMediaIcon from '../subComponents/SocialMediaIcon'
 import { NavLink } from 'react-router-dom'
-import { YinYang } from './AllSvgs'
+import {  YinYang } from './AllSvgs'
 import { keyframes } from 'styled-components'
 import { useState } from 'react'
 import Intro from './Intro'
 import { motion } from 'framer-motion'
 import ParticleComponent from '../subComponents/ParticleComponent';
+import ResumeFile from "../assets/images/EricNgo-Resume.pdf"
 
 
 
@@ -73,6 +74,18 @@ color: ${props => props.theme.text};
 text-decoration: none ;
 z-index: 1 ;
 color: ${props => props.click ? props.theme.body : props.theme.text};
+
+`
+const Resume = styled.a`
+color: ${props => props.theme.text};
+position: absolute;
+top: 50%;
+left: calc(1rem + 2vw);
+transform: rotate(-90deg) translate(-50%,-50%);
+text-decoration: none ;
+z-index: 1 ;
+color: ${props => props.click ? props.theme.body : props.theme.text};
+
 
 `
 
@@ -165,6 +178,13 @@ function Main() {
             whileTap={{scale: 0.8}}
           > Work</motion.h2>
         </Work>
+        <Resume click={click}  target="_blank" href={ResumeFile} rel="noreferrer" download="EricNgo-resume.pdf">
+          <motion.h1
+            whileHover={{ scale: 1.2 }}
+            whileTap={{scale: 0.8}}
+          > Resume</motion.h1>
+        </Resume>
+
         <BottomBar>
 
           <About to='/about' click={click}>
