@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.344e4145.css",
-    "main.js": "/Portfolio/static/js/main.6e620541.js",
+    "main.js": "/Portfolio/static/js/main.55f40c7f.js",
     "static/js/937.18f748c6.chunk.js": "/Portfolio/static/js/937.18f748c6.chunk.js",
     "static/js/787.a2cb61a6.chunk.js": "/Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/profile-gif.gif": "/Portfolio/static/media/profile-gif.bd108970c6a4d2a851f8.gif",
@@ -9,12 +9,12 @@
     "static/media/EricNgo-Resume.pdf": "/Portfolio/static/media/EricNgo-Resume.81949a5ad76675abac0c.pdf",
     "index.html": "/Portfolio/index.html",
     "main.344e4145.css.map": "/Portfolio/static/css/main.344e4145.css.map",
-    "main.6e620541.js.map": "/Portfolio/static/js/main.6e620541.js.map",
+    "main.55f40c7f.js.map": "/Portfolio/static/js/main.55f40c7f.js.map",
     "937.18f748c6.chunk.js.map": "/Portfolio/static/js/937.18f748c6.chunk.js.map",
     "787.a2cb61a6.chunk.js.map": "/Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.344e4145.css",
-    "static/js/main.6e620541.js"
+    "static/js/main.55f40c7f.js"
   ]
 }
