@@ -1,6 +1,5 @@
 import React from 'react'
-import { NavLink, Link } from 'react-router-dom'
-import { Github, YouTube,LinkedIn, Resume } from "../components/AllSvgs"
+import { Github,LinkedIn, Resume } from "../components/AllSvgs"
 import styled from "styled-components"
 import ResumeFile from "../assets/images/EricNgo-Resume.pdf"
 import {DarkTheme} from '../components/Themes'

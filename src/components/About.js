@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { ThemeProvider } from 'styled-components'
-import { LightTheme, DarkTheme } from './Themes'
-import { Design  } from './AllSvgs';
+import {  DarkTheme } from './Themes'
 import LogoComponent from '../subComponents/LogoComponent';
 import SocialMediaIcon from '../subComponents/SocialMediaIcon';
 import PowerButton from '../subComponents/PowerButton';
