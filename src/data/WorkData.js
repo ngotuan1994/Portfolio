@@ -7,9 +7,37 @@ export const Works = [
 
         demo:"https://crypto.ericngo.dev",
         github:"https://github.com/ngotuan1994/cryptoApi"
+  },
+  {
+        id:2,
+        name:"React-Redux-Todo-App",
+        description:"A single card containing information on shoes with animation using React functional components.",
+        tags:["react","Animate","HTML","CSS"],
+
+        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
+        github:"https://github.com/codebucks27/React-Redux-Todo-App"
+
+    }, {
+        id:3,
+        name:"QR Generator",
+        description:"Input your text, and get your QR code picture",
+        tags:["HTML","CSS","Nodejs","JavaScript"],
+
+        demo:"https://qrcodegenerator-2022.herokuapp.com/",
+        github:"https://github.com/ngotuan1994/QRcodeGenerator"
+
+    }, {
+        id:4,
+        name:"Portfolio",
+        description:"Personal Perforlio",
+        tags:["HTML","CSS","Nodejs","JavaScript","React"],
+
+        demo:"https://portfolio.ericngo.dev",
+        github:"https://github.com/ngotuan1994/Portfolio"
+
     },
     {
-        id:2,
+        id:5,
         name:"Responsive Website",
         description:"Individual project: Create a front-end website with a responsive feature. Applied flexbox to create a layout.",
         tags:["HTML","CSS"],
@@ -19,7 +47,7 @@ export const Works = [
 
     },
     {
-        id:3,
+        id:6,
         name:"Online Academy",
         description:"A simple version of Coursera. Purpose to practice how to use MongoDB, Auth0, and MVC model.",
         tags:["HTML","CSS","SASS","JavaScript","Auth0","MVC"],
@@ -28,7 +56,7 @@ export const Works = [
         github:"https://github.com/ngotuan1994/online_academy"
     },
     {
-        id:4,
+        id:7,
         name:"Monsters",
         description:"A single application web page to apply the knowledge of Reactjs to display multiple monster cards by fetching data from an API.",
         tags:["react","react-router","API"],
@@ -36,18 +64,9 @@ export const Works = [
         demo:"https://react-monsters.ericngo.dev/",
         github:"https://github.com/ngotuan1994/react-monsters"
 
-    },{
-        id:5,
-        name:"Card-Product",
-        description:"A single card containing information on shoes with animation using React functional components.",
-        tags:["react","Animate","HTML","CSS"],
-
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
-
     },
     {
-        id:6,
+        id:8,
         name:"Animation website",
         description:"Practice to create navigation menu , and video background.",
         tags:["HTML","CSS","JavaScript"],
@@ -57,17 +76,7 @@ export const Works = [
 
     },
     {
-        id:7,
-        name:"QR Generator",
-        description:"Input your text, and get your QR code picture",
-        tags:["HTML","CSS","Nodejs","JavaScript"],
-
-        demo:"https://qrcodegenerator-2022.herokuapp.com/",
-        github:"https://github.com/ngotuan1994/QRcodeGenerator"
-
-    },
-    {
-        id:8,
+        id:9,
         name:"Countdown to Christmas",
         description:"A basic website display count down to next Christmas Eve.",
         tags:["HTML","CSS","JavaScript"],
@@ -77,7 +86,7 @@ export const Works = [
 
     },
     {
-        id:9,
+        id:10,
         name:"To Do List",
         description:"A basic react To Do List",
         tags:["HTML","CSS","React"],
@@ -87,7 +96,7 @@ export const Works = [
 
     },
     {
-        id:10,
+        id:11,
         name:"Color game",
         description:"Choose a correct color based on the rgba value given.",
         tags:["HTML","CSS","Javascript"],
@@ -97,7 +106,7 @@ export const Works = [
 
   },
     {
-        id:11,
+        id:12,
         name:"Profile Card",
         description:"Create a functional component profile card",
         tags:["HTML","CSS","Javascript","React"],

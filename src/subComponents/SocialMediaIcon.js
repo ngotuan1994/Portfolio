@@ -33,7 +33,7 @@ function SocialMediaIcon(props) {
           </a>
         </div>
         <div>
-          <a style={{color:'inherit'}} target="_blank" href= "https://linkedin.com/in/tuanngo1994" rel="noreferrer">
+          <a style={{color:'inherit'}} target="_blank" href= "https://www.linkedin.com/in/ericngo14" rel="noreferrer">
             <LinkedIn width={32} height={30} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}></LinkedIn>
           </a>
 
